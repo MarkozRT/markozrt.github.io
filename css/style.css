@@ -1,0 +1,267 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: white;
+    font-family: 'Raleway', sans-serif;
+
+  }
+  /*
+  .navigation ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  .navigation li {
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 20px;
+  }
+  */
+
+  
+  ul {
+    list-style-type: none;
+    margin: auto;
+    display: inline;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    padding: 740px;
+
+  }
+  li {
+    display: inline;
+  }
+  .navigation  li.logo {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  
+  #banner {
+    background-image: url("/Images/Map-of-Silk-Road.jpg");
+    background-size: cover;
+    background-position: bottom center;
+    height: 700px;
+    width: 100%;
+  }
+  
+  #banner .content h1 {
+    border: 3px solid white;
+    position: relative;
+    top: 50px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  #main {
+    margin: 0 auto;
+    padding: 40px;
+    text-align: center;
+    width: 800px;
+    height: 1000px;
+    overflow: scroll;
+  }
+
+  
+  h1 {
+    color: white;
+    font-size: 42px;
+    font-weight: 600;
+    text-align: center;
+  }
+  
+  h2 {
+    border: 1px dotted gold;
+    color: gold;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 20px 30px;
+    margin: 30px 20px;
+    text-align: center;
+  }
+  
+  h3 {
+    color: gold;
+    font-size: 26px;
+    font-weight: 700;
+    padding: 20px 10px;
+  }
+  
+  p {
+    color: black;
+    font-size: 18px;
+    line-height: 48px;
+    margin-top: 60px;
+    padding: 10px 20px;
+  }
+  
+  .pull-quote {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .byline {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    color: black;
+    font-size: 14px;
+    font-weight: 200;
+  }
+  
+  .share {
+    border: 1px solid LightGrey;
+    padding: 40px 0px;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .share a {
+    background: darkgoldenrod;
+    border: 1px solid darkgoldenrod;
+    border-radius: 3px;
+    color: white;
+    display: inline-block;
+    margin: 10px;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  .share a:hover {
+    background: whitesmoke;
+    border: 1px solid black;
+    color: silver;
+  }
+  
+  .gallery {
+      margin: 10px 50px;
+      /* background-color: rgb(255, 255, 204); */
+      /*background-image: url("/Images/Map-of-Silk-Road.jpg"); */
+
+
+  }
+  .gallery img {
+      
+      padding: 15px;
+      width: 200px;
+  }
+
+  .gallery img:hover {
+      filter: grayscale(100%);
+      transform: scale(1.1);
+  }
+  
+  .title {
+    color: black;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 4px;
+  }
+  
+  #homeImage {
+    width: 3%;
+    height: auto;
+    
+  }
+
+  #homeImage:hover {
+    filter: grayscale(100%);
+    transform: scale(1.1);
+  }
+
+.btn {
+  background-color: gold; 
+  border-radius: 50%;
+  border: none; 
+  color: white; 
+  padding: 12px 16px; 
+  font-size: 16px; 
+  cursor: pointer; 
+
+}
+
+
+.btn:hover {
+  background-color: orange;
+}
+
+.navigation ul{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  list-style-type: none;
+  text-decoration-style: none;
+  display: inline;
+
+}
+
+.navigation li{
+  font-weight: 100;
+  letter-spacing: 2px;
+  padding: 20px;
+  list-style-type: none;
+  text-decoration-style: none;
+
+}
+
+
+.sidenav {
+  height: 100%; 
+  width: 0; 
+  position: fixed; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: black; 
+  overflow-x: hidden; 
+  padding-top: 60px; 
+  transition: 0.5s; 
+}
+
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+
+.sidenav a:hover {
+  color: gold;
+}
+
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+#main {
+  transition: margin-left .5s;
+  padding: 20px;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.introVideo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

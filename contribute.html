@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="/css/contribute.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contribute to the website!</title>
+</head>
+<body>
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="cities.html" style="text-decoration:none">CITIES</a>
+    <a href="history.html" style="text-decoration:none">HISTORY</a>
+    <a href="gallery.html" style="text-decoration:none">GALLERY</a>
+    <a class="contribute" href="contribute.html" style="text-decoration:none">CONTRIBUTE</a>
+  </div>
+
+  <span onclick="openNav()">Menu</span> 
+
+  <ul>
+    <li><a href="index.html" style="text-decoration: none;">THE SILK ROADS</a></li>
+  </ul>
+
+  <br> <br>
+    <div class="container">  
+        <form id="contact" action="" method="post">
+          <h3>Send any facts you think are important!</h3>
+          <h4>KCL-iGEM 2020</h4>
+          <fieldset>
+            <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Email Address" type="email" tabindex="2" required>
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Phone Number (optional)" type="tel" tabindex="3" >
+          </fieldset>
+          <fieldset>
+            <input placeholder="Your Institution (optional)" type="url" tabindex="4" >
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your message here...." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+          </fieldset>
+        </form>
+      </div>
+            <!-- JS files -->
+  <script src="js/main.js"></script>
+</body>
+</html>
